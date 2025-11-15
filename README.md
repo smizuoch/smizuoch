@@ -1,7 +1,6 @@
 ### こんにちは 👋
 
-I am a student of [42Tokyo](https://42tokyo.jp/).  
-I am interested in language models and image generation!  
+I am a student of [42Tokyo](https://42tokyo.jp/).    
 連絡はメールにお願いします。
 Mail: smizuoch@student.42tokyo.jp
 
