@@ -27,13 +27,8 @@ Ren'Py
 <a href="https://code.visualstudio.com/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/VisualStudioCode.png" alt="VisualStudioCode" width="320" height=" 180"></a>
 <a href="https://www.vim.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/VIMTRANS.png" alt="Vim" width="320" height="	180"></a>
 
-### OS
-Mac OS
-Windows
-Ubuntu
-
 ### Social
-<a href="https://github.com/smizuoch"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/Github.png" alt="GitHub" width="320" height="	180"></a>
+<a href="https://github.com/smizuoch"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/GitHub.png" alt="GitHub" width="320" height="	180"></a>
 <a href="https://twitter.com/ShotaroM8"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/X.png" alt="X" width="320" height="	180"></a>
 
 ###### [ロゴ:さわらつき](https://github.com/SAWARATSUKI/ServiceLogos)
