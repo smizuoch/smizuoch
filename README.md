@@ -29,6 +29,6 @@ Mail: smizuoch@student.42tokyo.jp
 
 ### Social
 <a href="https://github.com/smizuoch"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/GitHub.png" alt="GitHub" width="320" height="	180"></a>
-<a href="https://twitter.com/ShotaroM8"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/X.png" alt="X" width="320" height="	180"></a>
+<a href="https://twitter.com/smizuoch"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/X.png" alt="X" width="320" height="	180"></a>
 
 ###### [ロゴ:さわらつき](https://github.com/SAWARATSUKI/ServiceLogos)
