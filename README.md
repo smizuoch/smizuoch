@@ -16,12 +16,12 @@ Mail: smizuoch@student.42tokyo.jp
 
 ### Languages
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/C_all.png" alt="C" width="320" height="	180"></a>
-<a href="https://isocpp.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/C++.png" alt="C" width="320" height="	180"></a>
+<a href="https://isocpp.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/C++.png" alt="C++" width="320" height="	180"></a>
 <a href="https://www.python.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/Python.png" alt="Python" width="320" height="	180"></a>
-<a href="https://www.python.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/TypeScript.png" alt="Python" width="320" height="	180"></a>
+<a href="https://www.typescriptlang.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/TypeScript.png" alt="TypeScript" width="320" height="	180"></a>
 
 ### Engines
-<a href="https://www.vim.org/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/UnityBlenderT.png" alt="Vim" width="320" height="	180"></a>
+<a href="https://unity.com/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/UnityBlenderT.png" alt="unity" width="320" height="	180"></a>
 
 ### Editors
 <a href="https://code.visualstudio.com/"><img src="https://github.com/smizuoch/smizuoch/blob/main/images/VisualStudioCode.png" alt="VisualStudioCode" width="320" height=" 180"></a>
