@@ -1,0 +1,57 @@
+name: Update README stats (static SVG)
+
+on:
+  schedule:
+    # 00:00 JST にしたいなら "0 15 * * *"（JST=UTC+9）
+    # ここは例として 09:00 JST（= 00:00 UTC）
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate SVGs via self-hosted github-readme-stats (docker)
+        env:
+          PAT: ${{ secrets.README_STATS_PAT }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+
+          # anuraghazra/github-readme-stats をコンテナ内で起動（公式互換）
+          # 使用例はこの形式（PAT_1/WHITELIST/9000）に基づく :contentReference[oaicite:5]{index=5}
+          docker run -d --rm --name readme-stats \
+            -p 9000:9000 \
+            -e PAT_1="${PAT}" \
+            -e WHITELIST="${OWNER}" \
+            ghcr.io/utkuozdemir/github-readme-stats-selfhosted:v0.3.1
+
+          # 起動待ち
+          for i in {1..60}; do
+            if curl -fsS "http://localhost:9000/api?username=${OWNER}" >/dev/null; then
+              break
+            fi
+            sleep 2
+          done
+
+          # あなたの現行パラメータをそのまま反映
+          curl -fsSL "http://localhost:9000/api?username=${OWNER}&show_icons=true&theme=merko&count_private=true" \
+            -o profile/stats.svg
+          curl -fsSL "http://localhost:9000/api/top-langs?username=${OWNER}&layout=donut&theme=merko" \
+            -o profile/top-langs.svg
+
+          docker stop readme-stats >/dev/null
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: update readme stats" || exit 0
+          git push

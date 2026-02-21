@@ -9,8 +9,8 @@ Mail: smizuoch@student.42tokyo.jp
 [![smizuoch's 42 stats](https://badge.mediaplus.ma/darkblue/smizuoch?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/smizuoch)
 
 ## My Stats
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=smizuoch&show_icons=true&theme=merko&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smizuoch&layout=donut&theme=merko)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](./profile/stats.svg)](https://smizuoch.me/)
+[![Top Langs](./profile/top-langs.svg)](https://smizuoch.me/)
 
 ## Tools Used
 
