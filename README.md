@@ -1,7 +1,8 @@
 ### こんにちは 👋
 
 I am a student of [42Tokyo](https://42tokyo.jp/).    
-連絡はメールにお願いします。
+連絡はメールにお願いします。  
+
 Mail: shotaro.mizuochi@proton.me
 
 日本語を主として使用しております。
