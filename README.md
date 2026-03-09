@@ -2,6 +2,7 @@
 
 I am a student of [42Tokyo](https://42tokyo.jp/).    
 連絡はメールにお願いします。  
+現在、ソフトウェア開発のお仕事承っております。
 
 Mail: shotaro.mizuochi@proton.me
 
